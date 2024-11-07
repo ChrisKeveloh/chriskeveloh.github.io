@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="stylesheet" th:href="@{/css/style.css}">
+    <title>Coursework</title>
+</head>
+
+<body>
+
+    <!-- Video Background -->
+    <div class="video-background">
+        <video autoplay muted loop id="bg-video">
+            <source src="/videos/background.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+        </video>
+    </div>
+
+    <!-- Navigation Bar -->
+    <div class="banner">
+        <div class="navbar">
+            <ul>
+                <li><a th:href="@{/}">Home</a></li>
+                <li><a th:href="@{/About}">About</a></li>
+                <li><a th:href="@{/Projects}">Projects</a></li>
+                <li><a th:href="@{/Coursework}">Coursework</a></li>
+                <li><a href="https://www.linkedin.com/in/chris-keveloh-7a8b91247/" target="_blank">   
+                    <i class="fab fa-linkedin"></i> </a></li>
+                    <li> <a href= " https://github.com/ChrisKeveloh" target="_blank">
+                        <i class="fa-brands fa-github"></i>
+                    </a></li>
+            </ul>
+        </div>
+    </div>
+
+    <!-- Video Overlay to Dim the Video -->
+    <div class="video-overlay"></div>
+
+    <div class="coursework-container">
+        <h1>My Courses</h1>
+
+        <!-- Scrollable List of Courses -->
+        <div class="course-list">
+            <ul>
+                <li>Intro to Data Structures and Algorithms</li>
+                <li>Data Structures and Algorithms</li>
+                <li>Database Processing</li>
+                <li>Principles of Software Engineering</li>
+                <li>Concepts of Programming Languages</li>
+                <li>Networking and Parallel and Distributed Computing</li>
+                <li>C++ Programming</li>
+                <li>Data and Information Visualization</li>
+                <li>Social, Legal and Ethics in IT</li>
+                <li>Computer Organization</li>
+                <li>Discrete Math</li>
+                <li>Calculus 1</li>
+                <li>Calculus 2</li>
+                <li>Small Group Processes</li>
+                <!-- Add more courses as needed -->
+            </ul>
+        </div>
+    </div>
+
+
+    
+</body>
+
+</html>

@@ -1,0 +1,670 @@
+
+
+
+ .col
+ {
+  align-items: start;
+ }
+
+body {
+    background-color: #1b1a1a !important; /* Replace with any color code you prefer */
+}
+
+.kanit-regular {
+  font-family: "Kanit", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.circular-image {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  margin-left: 65px;
+  
+  
+  
+  object-fit: cover;
+  object-position: 90% 10%; /* Adjusts horizontal position slightly */
+  
+}
+
+.container-main{
+  align-items: start;
+  margin-top: 100px;
+  width: 100%;
+  margin: 0; /* Remove default margin */
+  flex-wrap: wrap;
+  display: grid;
+ 
+}
+
+.fixed-section {
+  grid-column: 1; /* Position on the left */
+  position: sticky; /* Keep fixed-section in place while scrolling */
+  top: 0;
+  align-self: start; /* Align to top of grid */
+  
+  margin-left: 350px;
+  padding-right:250px;
+
+  margin-top: 100px;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  width: 50%;
+}
+
+.scrollable-section {
+  grid-column: 2; /* Position on the right */
+   /* Make this section scrollable if content overflows */
+}
+
+.personal-information-container
+{
+  color:white;
+  font-family:Helvetica, sans-serif;
+
+
+  
+}
+
+.skills-section h1{
+  margin-bottom:20px;
+  font-weight: bold;
+  
+}
+
+
+
+.about-me-section
+{
+  text-align: left;
+  color:white;
+  font-family:Helvetica, sans-serif;
+  
+ 
+}
+
+.about-me-section h1{
+  margin-top:50px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.about-me-section p{
+  font-family: "Kanit", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.skills-section
+{
+  text-align: left;
+  color:white;
+  margin-top: 50px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+
+.btn.btn-primary{
+  border-radius: 100px; /* Make the button oval-shaped */
+  padding: 10px 20px;
+  width: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  font-family: "Kanit", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  
+  
+  
+  
+}
+
+.row-spacing{
+  margin-bottom: 20px;
+  
+  
+}
+
+.btn-spacing
+{
+  margin-right: 20px;
+}
+
+.education-section{
+  text-align: left;
+  color:white;
+  font-family:Helvetica, sans-serif;
+ 
+}
+
+.col-1.education{
+  margin-right: 20px;
+}
+
+
+.education-section h1{
+  margin-bottom:20px;
+  font-weight: bold;
+
+}
+
+.projects-section h1{
+  font-weight: bold;
+}
+
+.education-section p{
+  margin-bottom:5px;
+}
+
+
+/* .fixed-section{
+  margin-top: 100px;
+  position: fixed;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  width: 50%;
+} */
+
+.btn.btn-light{
+  
+}
+
+.projects-section{
+  text-align: left;
+  color:white;
+  font-family:Helvetica, sans-serif;
+}
+
+
+.education-row-spacing{
+  margin-top:20px;
+  margin-bottom: 30px;
+}
+
+.gaspal-button{
+    transform: scale(0.6) !important;
+    font-size: 16px !important;
+
+  
+}
+
+.first-name{
+  margin-top:15px;
+  font-size: 30px;
+  font-weight: bold;
+  margin-left: 65px;
+  
+  
+}
+
+.title{
+  margin-top:5px;
+  font-size: 22px;
+  font-weight: lighter;
+  margin-left: 65px;
+}
+
+.location{
+  margin-top:10px;
+  margin-bottom:20px;
+  font-size: 15px;
+  font-weight: lighter;
+  margin-left: 63px;
+
+}
+
+.btn.btn-outline-light{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.row.row-spacing button{
+  background-color: #253453 !important; 
+  border: none;
+  color:#75a5f7;
+  transform: scale(0.8);
+}
+
+.row.other{
+  margin-bottom: 20px;
+}
+
+.row.frameworks{
+  margin-bottom: 20px;
+}
+
+.row.frameworks button{
+  background-color: #29472f !important; 
+  border: none;
+  color:#83ce96;
+  transform: scale(0.8);
+
+}
+
+.row.other button{
+  background-color: #382853 !important; 
+  border: none;
+  color:#bf85fd;
+  text-shadow: white;
+  transform: scale(0.8);
+  
+}
+
+.skills-section p{
+  font-weight: bold;
+}
+
+.social-media{
+  display:flex;
+  gap:20px;
+  
+  transform: scale(0.7);
+ 
+
+}
+.social-media a{
+  background-color: white !important;
+  padding:1em;
+  border-radius: 50%;
+  height:64px;
+  width: 64px;
+  box-sizing:border-box;
+  flex-shrink:0;
+  display:grid;
+  place-items: center;
+  box-shadow: 0 5px 10px rgb(0,0,0,0.05);
+  
+  
+}
+.social-media a svg{
+  height: 32px;
+  
+}
+
+.social-media a::before{
+  content: attr(data-social);
+  position: absolute;
+  background-color: var(--accent-color);
+  color:white;
+  text-decoration: none;
+  padding: 0.5em 1em;
+  border-radius:100px;
+  box-shadow: 0 5px 10px rgb(0,0,0,0.05);
+  transform: translateY(-30px) rotate(25deg);
+  opacity: 0;
+  transition: 200ms ease;
+
+}
+
+.social-media a:hover{
+  background-color: var(--accent-color) !important;
+  fill: rgb(255, 255, 255);
+}
+
+.social-media a:hover svg{
+  
+  fill: rgb(255, 255, 255);
+}
+
+.social-media a::after{
+  content: '';
+  position:absolute;
+  height:0;
+  width:0;
+  /* border-left: 8px solid transparent;
+  border-right: 8px solid transparent;
+  border-top: 10px solid var(--accent-color); */
+  transform: translateY(0) rotate(25deg);
+  opacity: 0;
+  transition: 200ms ease;
+}
+
+.social-media a:hover::before{
+  transform: translateY(-65px) rotate(0);
+  opacity: 1;
+}
+
+.social-media a:hover::after{
+  transform: translateY(-65px) rotate(0);
+  opacity: 1;
+}
+
+.col.languages button{
+  font-family: "Kanit", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+#animContainer {
+  width: 40%;
+  height: 40%;
+  margin-top: 50px;
+  margin-left: 275px;
+}
+
+
+
+/* Responsive adjustments for mobile screens (up to 576px) */
+@media (max-width: 576px) {
+
+  .container-main {
+    grid-template-columns: 1fr; /* Single-column layout */
+    grid-template-rows: auto auto; /* Each section takes its own row */
+    gap: 20px;
+    width: 100vw;
+}
+
+.fixed-section {
+    grid-column: 1;
+    grid-row: 1; /* Position at the top */
+    position: static; /* Allow scrolling */
+    margin-left: 0px;
+    margin-right: 30px;
+     /* Limit height so it’s scrollable */
+    overflow-y: auto; /* Enable scrolling within this section */
+    padding: 0 15px; /* Adjust padding for smaller screens */
+    width: 100%;
+}
+
+.scrollable-section {
+    grid-column: 1;
+    grid-row: 2; /* Position below fixed-section */
+     /* Limit height for scrolling */
+    overflow-y: auto; /* Enable scrolling */
+    padding: 0 15px;
+    width: 100%;
+}
+
+
+.first-name{
+  margin-top:15px;
+  font-size: 30px;
+  font-weight: bold;
+  margin-left: 10px;
+  
+  
+}
+
+.title{
+  margin-top:5px;
+  font-size: 22px;
+  font-weight: lighter;
+  margin-left: 10px;
+}
+
+.location{
+  margin-top:10px;
+  margin-bottom:20px;
+  font-size: 15px;
+  font-weight: lighter;
+  margin-left: 10px;
+
+}
+
+.circular-image {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  margin-left: 10px;
+  object-fit: cover;
+  object-position: 90% 10%; /* Adjusts horizontal position slightly */
+  
+}
+
+.social-media a{
+
+  margin-left: 15px;
+  
+}
+.btn.btn-primary{
+
+  width: 90px;
+  margin-left: 12px;
+ 
+}
+
+.col-1.languages{
+  margin-left:40px !important;
+}
+
+
+.col-1.frameworks{
+  margin-left:40px !important;
+}
+
+
+.col-1.other{
+    margin-left:40px !important;
+}
+
+.education-row-spacing{
+}
+.education-section p{
+  margin-left:30px!important;
+  
+}
+
+.col-2.project-image{
+  margin-left:70px;
+}
+
+.col-8.project{
+  margin-left: 70px !important;
+}
+
+.col-1.project-tools{
+  margin-left:40px !important;
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+/* Prevent horizontal overflow */
+body, .container-main {
+    overflow-x: hidden;
+}
+
+}
+
+
+@media (min-width: 576px) and (max-width: 900px) {
+
+
+  .container-main {
+    grid-template-columns: 1fr; /* Single-column layout */
+    grid-template-rows: auto auto; /* Each section takes its own row */
+    gap: 20px;
+    width: 100vw;
+   
+    
+}
+
+.fixed-section {
+  grid-column: 1;
+    grid-row: 1; /* Position at the top */
+    position: static; /* Allow scrolling */
+    margin-left: 0px;
+    margin-right: 30px;
+     /* Limit height so it’s scrollable */
+    
+    padding: 0 15px; /* Adjust padding for smaller screens */
+    width: 100%;
+}
+
+.scrollable-section {
+
+  grid-column: 1;
+  grid-row: 2; /* Position below fixed-section */
+   /* Limit height for scrolling */
+  
+  padding: 0 15px;
+  width: 100%;
+    
+}
+
+
+.first-name{
+  margin-top:15px;
+  font-size: 30px;
+  font-weight: bold;
+  margin-left: 0px;
+  
+  
+}
+
+.title{
+  margin-top:5px;
+  font-size: 22px;
+  font-weight: lighter;
+  margin-left: 0px;
+  
+}
+
+.location{
+  margin-top:10px;
+  margin-bottom:20px;
+  font-size: 15px;
+  font-weight: lighter;
+  margin-left: 0px;
+  
+
+}
+
+.circular-image {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  margin-left: 0px;
+  margin-right: 225px;
+  object-fit: cover;
+  object-position: 90% 10%; /* Adjusts horizontal position slightly */
+  
+}
+
+.social-media a{
+
+  margin-left: 15px;
+  
+}
+
+.personal-information-container
+{
+  color:white;
+  font-family:Helvetica, sans-serif;
+  margin-left:150px !important;
+
+  
+}
+
+
+
+.btn.btn-primary{
+
+  width: 90px;
+  margin-left: 12px;
+ 
+}
+
+.col-1.languages{
+  margin-left:40px !important;
+}
+
+
+.col-1.frameworks{
+  margin-left:40px !important;
+}
+
+.col-1.frameworks{
+  margin-left:40px !important;
+}
+.col-1.other{
+    margin-left:40px !important;
+}
+
+.education-row-spacing{
+}
+.education-section p{
+  margin-left:30px!important;
+  
+}
+
+/* .col-2.project-image{
+  margin-left:70px;
+} */
+
+.col-8.project{
+ 
+  
+  width: 50%;
+  height: 100px;
+}
+
+.col-1.project-tools{
+  margin-left:40px !important;
+}
+
+.circular-image{
+  margin-left: 220px;
+}
+
+
+.social-media a{
+
+  margin-left: 15px;
+  
+}
+
+.title{
+  font-size: 22px;
+
+  margin-right: 150px;
+}
+
+.first-name{
+  margin-right: 170px;
+
+}
+.location{
+  margin-right: 150px;
+}
+
+.col-2.project-image{
+  margin-left:0px;
+  width:150px;
+  height:100px;
+  
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+/* Prevent horizontal overflow */
+body, .container-main {
+    overflow-x: hidden;
+}
+
+}
+
+
+
+
+
+
